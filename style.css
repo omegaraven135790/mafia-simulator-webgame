@@ -1,0 +1,38 @@
+
+:root {
+  /* CSS HEX */
+  --black: #02010a;
+  --prussian-blue: #04052e;
+  --deep-twilight: #140152;
+  --navy: #22007c;
+  --navy-electric: #0d00a4;
+
+  /* CSS Gradients */
+  --gradient-top: linear-gradient(0deg, #02010a, #04052e, #140152, #22007c, #0d00a4);
+  --gradient-right: linear-gradient(90deg, #02010a, #04052e, #140152, #22007c, #0d00a4);
+  --gradient-bottom: linear-gradient(180deg, #02010a, #04052e, #140152, #22007c, #0d00a4);
+  --gradient-left: linear-gradient(270deg, #02010a, #04052e, #140152, #22007c, #0d00a4);
+  --gradient-top-right: linear-gradient(45deg, #02010a, #04052e, #140152, #22007c, #0d00a4);
+  --gradient-bottom-right: linear-gradient(135deg, #02010a, #04052e, #140152, #22007c, #0d00a4);
+  --gradient-top-left: linear-gradient(225deg, #02010a, #04052e, #140152, #22007c, #0d00a4);
+  --gradient-bottom-left: linear-gradient(315deg, #02010a, #04052e, #140152, #22007c, #0d00a4);
+  --gradient-radial: radial-gradient(#02010a, #04052e, #140152, #22007c, #0d00a4);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+/* @font-face {
+  font-family: "Pixelify Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+body {
+  background: var(--gradient-top);
+  color: var(--black);
+  font-family: "Pixelify Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
