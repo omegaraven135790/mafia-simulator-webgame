@@ -6,6 +6,7 @@
   --deep-twilight: #140152;
   --navy: #22007c;
   --navy-electric: #0d00a4;
+  --white:rgb(235, 228, 228);
 
   /* CSS Gradients */
   --gradient-top: linear-gradient(0deg, #02010a, #04052e, #140152, #22007c, #0d00a4);
@@ -28,11 +29,64 @@
   font-weight: 400;
   font-style: normal;
 } */
-
+html,body{
+  margin:0px;
+  padding:0px
+}
 body {
-  background: var(--gradient-top);
-  color: var(--black);
+  background: var(--gradient-bottom);
+  background-size:200vh 100vh;
+  background-repeat: no-repeat;
+  color: var(--white);
   font-family: "Pixelify Sans", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+.navbar {
+  padding: 10px 30px;
+  /* border-bottom: 3px solid var(--); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1{
+  margin:10px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-buttons button {
+  background: var(--white);
+  color: var(--black);
+  border: black double ;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.nav-buttons button:hover {
+  background: var(--black);
+  color: var(--white);
+  border: white double ;
+}
+
+.stat-card {
+  background: var(--black);
+  border: 2px solid var(--white);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.game{
+  display:grid;
+  grid-template-columns:
+  
 }
