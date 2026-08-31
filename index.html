@@ -13,19 +13,72 @@
     <div class="navbar">
         <h1>Mafia Simulator</h1>
         <div class="nav-buttons">
-        <button id = "inventory">Inventory</button>
-        <button id = "journal">journal</button>
-        <button id = "buisness">Buisness</button>
-        <button id = "about">about</button>
-        <button id = "settings">Settings</button>
-        </div>
+        <button id = "home"><a href="index.html">Story</a></button>
+        <button id = "inventory"><a href="inventory.html">Inventory</a></button>
+        <button id = "journal"><a href="journal.html">Journal</a></button>
+        <button id = "buisness"><a href="buisness.html">Buisness</a></button>
+        <button id = "about"><a href="about.html">About</a></button>
+        <button id = "settings"><a href="settings.html">Settings</a></button>
+    </div>
         
     </div>
     <section class="game">
-        <div class="stat-card">
+        <div class="stat-card" id="Bstats">
+            <div>
+                <div>
+                    <h1>gang name: lorum ipsum, dolor siteh</h1>
+                </div>
+                    
+                <div>
+                    <h2>money: $10,000</h2>
+                </div>
+                <div>
+                    <h2>reputation:</h2>
+                </div>
+                <div>
+                    <h2>stability:</h2>
+                </div>
+                <div>
+                    <h2>members: 5</h2>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h2>name: John Doe</h2>
+                <h2>family: None</h2>
+                <h2>Reputation: nobody important</h2>
+                <h2>Special traits: none</h2>
+                <h2>health:average</h2>
+                <h2>Sanity: normal</h2>
+                <h2>wealth:broke</h2>
+                <!-- <img src="path/to/image.jpg" alt="Profile Image"> -->
+            </div>
+           
+              
+        </div>
+
+        <div class="stat-card" id="story" style="overflow-y: auto; display: flex; flex-direction: column; justify-content: space-between;">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga eum, dolorum rem ipsa recusandae qui! At illo ipsam dignissimos delectus suscipit dolorum cupiditate provident aperiam sapiente velit, dicta quisquam dolorem obcaecati adipisci beatae libero unde accusamus repellendus! Repellat laborum veritatis fuga ea laboriosam inventore cum cupiditate veniam itaque, culpa animi consequuntur perferendis adipisci officiis earum impedit. Repudiandae sunt tempora aperiam nisi possimus a eius quos delectus ab, non alias assumenda odio, excepturi officiis impedit nobis maxime eum modi. Repudiandae facilis nam modi, libero, unde animi recusandae, explicabo veritatis dignissimos magnam voluptates necessitatibus at? Mollitia quia, natus accusantium eum assumenda labore.
             </p>
+            <div class="choices" style="display: flex; flex-direction:column; gap: 10px;">
+                <div class="stat-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, consectetur!</div>
+                <div class="stat-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, consectetur!</div>
+                <div class="stat-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, consectetur!</div>
+                <div class="consumable-options" style="display: flex; gap: 10px; justify-content: space-around;">
+                    <div class = "stat-card">send a subordinate</div>
+                    <div class = "stat-card">Use your <b>inventory</b> </div> 
+                    <div class = "stat-card">call in a favour</div> 
+                </div>
+            </div>
+            
+
+            </div>
         </div>
+
+        <!-- <div class="stat-card" id="Cstats" style="display: flex; gap:40px;">
+            
+        </div> -->
+        
     </section>
     
 </body>
