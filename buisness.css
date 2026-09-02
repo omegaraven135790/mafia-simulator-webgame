@@ -28,6 +28,8 @@ html,body{
 
 #center{
   grid-area: center;
+  padding: 0px;
+  margin-top: 0px;
 }
 
 #right{
@@ -37,4 +39,49 @@ html,body{
 #footer{
   grid-area: footer;
   height: 10vh;
+}
+
+#main-top{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding:10px;
+  padding-top:0px; 
+  margin-top:0px;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+#main-top button{
+  background-color: var(--white);
+  color: var(--black);
+  border: black double ;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  overflow:hidden;
+  margin-right: 15px;
+  height: 130px;
+  writing-mode:vertical-rl;
+}
+
+.inner{
+  border: 5px solid white;
+  margin:10px;
+  overflow-x:hidden;
+  overflow-y:auto;
+}
+
+.scrollable-hidden-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.member-card{
+  background: var(--black);
+  border: 2px solid var(--white);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
 }
